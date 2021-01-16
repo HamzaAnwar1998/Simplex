@@ -1,0 +1,142 @@
+.purple-background {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    background: #C06BC8;
+}
+
+@media(max-width: 768px) {
+    .purple-background {
+        height: 250px;
+    }
+}
+
+@media(max-width: 650px) {
+    .purple-background {
+        height: 450px !important;
+    }
+}
+
+/* SimplexjoinForm */
+.purple-background .form-div {
+    width: 70%;
+    height: auto;
+    background: #fff;
+    border-radius: 28px;
+    position: absolute;
+    top: -60px;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+@media(max-width: 650px) {
+    .purple-background .form-div {
+        width: 90%;
+        top: -60px;
+        left: 5%;
+    }
+}
+
+.purple-background .form-div h1 {
+    font-size: 42px;
+    letter-spacing: 0.08em;
+}
+
+@media(max-width: 768px) {
+    .purple-background .form-div h1 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 650px) {
+    .purple-background .form-div h1 {
+        font-size: 24px;
+    }
+}
+
+.purple-background .form-div p {
+    margin-top: 7px;
+    color: #94908F;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.purple-background .form-div .form {
+    width: 90%;
+    margin-top: 4px;
+}
+
+@media(max-width: 650px) {
+    .purple-background .form-div .form {
+        width: 100%;
+    }
+}
+
+.purple-background .form-div .form .simplex-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.purple-background .form-div .form .simplex-form .patient-div {
+    width: 100%;
+}
+
+.purple-background .form-div .form .simplex-form .patient-div input {
+    width: 100%;
+    border: hidden;
+    border-radius: 24px;
+    background-color: #FDE0FF;
+    text-indent: 20px;
+    font-size: 12px;
+    height: 45px;
+    outline: none;
+}
+
+.purple-background .form-div .form .simplex-form .others-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.purple-background .form-div .form .simplex-form .others-div span {
+    flex: 1;
+    margin: 7px;
+}
+
+@media(max-width: 650px) {
+    .purple-background .form-div .form .simplex-form .others-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .purple-background .form-div .form .simplex-form .others-div span {
+        width: 100%;
+    }
+}
+
+.purple-background .form-div .form .simplex-form .others-div span input {
+    width: 100%;
+    border: hidden;
+    border-radius: 24px;
+    background-color: #FDE0FF;
+    text-indent: 20px;
+    font-size: 12px;
+    height: 45px;
+    outline: none;
+}
+
+.purple-background .form-div .form .simplex-form .others-div span .form-submit-btn {
+    cursor: pointer;
+    background-color: #87268F;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-indent: 0;
+}

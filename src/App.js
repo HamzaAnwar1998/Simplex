@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { HeroBackground } from "./Components/Views/HeroBackground";
+import { PurpleBackground } from "./Components/Views/PurpleBackground";
+import { Great } from "./Components/Views/Great";
+import { SaveEfforts } from "./Components/Views/SaveEfforts";
+import { Testimonials } from "./Components/Views/Testimonials";
+import { SimplexWorking } from "./Components/Views/SimplexWorking";
+import { PurpleDesign } from "./Components/Views/PurpleDesign";
+import { Footer } from "./Components/Views/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <HeroBackground />
+      <PurpleBackground />
+      <Great />
+      <SaveEfforts />
+      <Testimonials />
+      <SimplexWorking />
+      <PurpleDesign />
+      <Footer />
     </div>
   );
 }
